@@ -1,6 +1,7 @@
 ML Assignment 1
 
-### 1) How would you define Machine Learning?
+### 1) How would you define Machine Learning?				
+ans : Machine learning is a way for computer programs to improve their performance on a task over time given more data.
 
 ans: Machine learning is a way for computer programs to improve their performance on a task over time given more data.
 
@@ -82,5 +83,10 @@ A common solution to this problem is to have a second holdout set called the val
 ### 18) What can go wrong if you tune hyperparameters using the test set?
 Your model will not be generalizable to new examples.
 
+<<<<<<< HEAD
 ### 19) What is cross-validation and why would you prefer it to a validation set?
 Cross-validation helps us compare models without wasting too much training data in the validation set.
+=======
+19) What is cross-validation and why would you prefer it to a validation set?
+Cross-validation helps us compare models without wasting too much training data in the validation set.
+>>>>>>> ca83421a94750c7da904dcf8ce0106d78d0e30ac
