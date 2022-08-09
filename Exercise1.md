@@ -1,7 +1,7 @@
 ML Assignment 1
 
 1) How would you define Machine Learning?
-Machine learning is a way for computer programs to improve their performance on a task over time given more data.
+ans : Machine learning is a way for computer programs to improve their performance on a task over time given more data.
 
 2) Can you name 4 types of problems where it shines?
 Machine learning algorithms have had good results on problems such has spam detection in email, cancer diagnosis, fraudulent credit card transactions, and automatically driving vehicles.
