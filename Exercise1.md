@@ -59,7 +59,7 @@ The goal for a model-based algorithm is to be able to generalize to new examples
   * Reduce noise in the training data by fixing errors and removing outliers.
 -  When your model is too simple to learn the underlying structure of the data you've underfit your model.
 
- -  Select a more powerful model with more parameters
+ --  Select a more powerful model with more parameters
   * Use feature engineering to feed better features to the model
   * Reduce the constraints of the model (increase degrees of freedom, reduce regularization parameter, etc.)
  
