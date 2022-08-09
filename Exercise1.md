@@ -50,18 +50,18 @@ The goal for a model-based algorithm is to be able to generalize to new examples
 
 - The features in your dataset are irrelevant. Garbage in, garbage out.
 
- * Feature selection - choose the most relevant  eatures from your dataset
- * Feature extraction - combine features in your dataset to generate a new, more useful feature
-- When your model performs well on the training data, but not on test data, you've over fit your model. Models that suffer from overfitting do not generalize well to new examples. Overfitting happens when the model is too complex relative to the amount and noisiness of the data.
+  * Feature selection - choose the most relevant  eatures from your dataset
+  * Feature extraction - combine features in your dataset to generate a new, more useful feature
+- -  When your model performs well on the training data, but not on test data, you've over fit your model. Models that suffer from overfitting do not generalize well to new examples. Overfitting happens when the model is too complex relative to the amount and noisiness of the data.
 
- * Try simplyfying the model by reducing the number of features in the data or constraining the parameters by reducing the degrees of freedom.
- * Gather more training data.
- * Reduce noise in the training data by fixing errors and removing outliers.
-- When your model is too simple to learn the underlying structure of the data you've underfit your model.
+  * Try simplyfying the model by reducing the number of features in the data or constraining the parameters by reducing the degrees of freedom.
+  * Gather more training data.
+  * Reduce noise in the training data by fixing errors and removing outliers.
+- - When your model is too simple to learn the underlying structure of the data you've underfit your model.
 
- * Select a more powerful model with more parameters
- * Use feature engineering to feed better features to the model
- * Reduce the constraints of the model (increase degrees of freedom, reduce regularization parameter, etc.)
+  * Select a more powerful model with more parameters
+  * Use feature engineering to feed better features to the model
+  * Reduce the constraints of the model (increase degrees of freedom, reduce regularization parameter, etc.)
  
 ### 15) If your model performs great on the training data but generalizes poorly to new instances, what is happening? Can you name 3 possible solutions?
 This is a case where the model is overfitting the training data. To couteract overfitting, we can reduce the complexity of the model by removing features or constraining the parameters. We could gather more data. Finally we can reduce noisiness in the data by fixing errors and removing outliers.
@@ -83,10 +83,6 @@ A common solution to this problem is to have a second holdout set called the val
 ### 18) What can go wrong if you tune hyperparameters using the test set?
 Your model will not be generalizable to new examples.
 
-<<<<<<< HEAD
-### 19) What is cross-validation and why would you prefer it to a validation set?
-Cross-validation helps us compare models without wasting too much training data in the validation set.
-=======
 19) What is cross-validation and why would you prefer it to a validation set?
 Cross-validation helps us compare models without wasting too much training data in the validation set.
->>>>>>> ca83421a94750c7da904dcf8ce0106d78d0e30ac
+
