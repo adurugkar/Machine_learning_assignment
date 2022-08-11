@@ -52,7 +52,7 @@ The goal for a model-based algorithm is to be able to generalize to new examples
 
   * Feature selection - choose the most relevant  eatures from your dataset
   * Feature extraction - combine features in your dataset to generate a new, more useful feature
-- -  When your model performs well on the training data, but not on test data, you've over fit your model. Models that suffer from overfitting do not generalize well to new examples. Overfitting happens when the model is too complex relative to the amount and noisiness of the data.
+- When your model performs well on the training data, but not on test data, you've over fit your model. Models that suffer from overfitting do not generalize well to new examples. Overfitting happens when the model is too complex relative to the amount and noisiness of the data.
 
   * Try simplyfying the model by reducing the number of features in the data or constraining the parameters by reducing the degrees of freedom.
   * Gather more training data.
