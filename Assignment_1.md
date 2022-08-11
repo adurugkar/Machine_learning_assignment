@@ -42,7 +42,7 @@ The goal for a model-based algorithm is to be able to generalize to new examples
 ### 14) Can you name 4 of the main challenges in Machine Learning?
  - Not gathering enough data, or sampling noise. Sampling noise means we'll have non-representative data as a result of chance.
 
-- # Using a dataset that is not representative of the cases you want to generalize to. This is called sampling bias. For example, if you want to train an algorithm with "cat videos", and all your videos are from YouTube, you're actually training an algorithm to learn about "YouTube cat videos."
+- Using a dataset that is not representative of the cases you want to generalize to. This is called sampling bias. For example, if you want to train an algorithm with "cat videos", and all your videos are from YouTube, you're actually training an algorithm to learn about "YouTube cat videos."
 
 - Your dataset is full of missing values, outliers, and noise (poor measurments).
 
